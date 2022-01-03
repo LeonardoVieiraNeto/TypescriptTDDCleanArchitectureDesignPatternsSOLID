@@ -1,0 +1,2 @@
+# TypescriptTDDCleanArchitectureDesignPatternsSOLID.
+TypescriptTDDCleanArchitectureDesignPatternsSOLID
