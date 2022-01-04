@@ -4,8 +4,8 @@
   "description": "Teste de alteração do GIT",
   "main": "test.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
