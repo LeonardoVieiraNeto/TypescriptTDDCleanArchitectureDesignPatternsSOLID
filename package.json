@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LeonardoVieiraNeto/TypescriptTDDCleanArchitectureDesignPatternsSOLID/issues"
   },
-  "homepage": "https://github.com/LeonardoVieiraNeto/TypescriptTDDCleanArchitectureDesignPatternsSOLID#readme"
+  "homepage": "https://github.com/LeonardoVieiraNeto/TypescriptTDDCleanArchitectureDesignPatternsSOLID#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.2.8"
+  }
 }
