@@ -1,0 +1,20 @@
+{
+  "name": "TypescriptTDDCleanArchitectureDesignPatternsSOLID",
+  "version": "1.0.0",
+  "description": "Teste de alteração do GIT",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/LeonardoVieiraNeto/TypescriptTDDCleanArchitectureDesignPatternsSOLID.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoVieiraNeto/TypescriptTDDCleanArchitectureDesignPatternsSOLID/issues"
+  },
+  "homepage": "https://github.com/LeonardoVieiraNeto/TypescriptTDDCleanArchitectureDesignPatternsSOLID#readme"
+}
