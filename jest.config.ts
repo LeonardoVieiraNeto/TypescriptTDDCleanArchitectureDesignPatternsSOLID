@@ -1,16 +1,18 @@
-export default {
-  roots: ['<rootDir>/src/'],
-  collectCoverageFrom: ['<rootDir>/src/**/*'],
-  clearMocks: true,
-  collectCoverage: true,
+module.exports = {
+  roots: ['<rootDir>/tests'],
+  collectCoverageFrom: [
+    '<rootDir>/src/**/*.ts',
+    '!<rootDir>/src/main/**'
+  ],
   coverageDirectory: 'coverage',
-  testEnviromment: 'node',
+  coverageProvider: 'babel',
+  testEnvironment: 'node',
+  preset: '@shelf/jest-mongodb',
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
-  typeAcquisition: {
-    include: [
-      'jest'
-    ]
+  moduleNameMapper: {
+    '@/tests/(.*)': '<rootDir>/tests/$1',
+    '@/(.*)': '<rootDir>/src/$1'
   }
 }
