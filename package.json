@@ -5,7 +5,7 @@
   "main": "test.js",
   "scripts": {
     "test": "jest --passWithNoTests",
-    "test:staged": "jest --passWithNoTests"
+    "test:staged": "npm test -- --findRelatedTests"
   },
   "repository": {
     "type": "git",
